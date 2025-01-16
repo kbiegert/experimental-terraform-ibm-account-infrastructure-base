@@ -7,8 +7,8 @@ output "security_resource_group_id" {
     value       = "security_resource_group_id"
 }
 
-output "security_resource_group_id" {
-    value       = "security_resource_group_id"
+output "security_resource_group_name" {
+    value       = "security_resource_group_name"
 }
 
 output "audit_resource_group_id" {
