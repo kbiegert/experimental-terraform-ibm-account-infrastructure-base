@@ -8,7 +8,7 @@ output "security_resource_group_id" {
 }
 
 output "security_resource_group_name" {
-    value       = "security_resource_group_name"
+    value       = var.security_resource_group_name
 }
 
 output "audit_resource_group_id" {
@@ -16,7 +16,7 @@ output "audit_resource_group_id" {
 }
 
 output "audit_resource_group_name" {
-    value       = "audit_resource_group_name"
+    value       = var.audit_resource_group_name
 }
 
 output "observability_resource_group_id" {
@@ -24,7 +24,7 @@ output "observability_resource_group_id" {
 }
 
 output "observability_resource_group_name" {
-    value       = "observability_resource_group_name"
+    value       = var.observability_resource_group_name
 }
 
 output "management_resource_group_id" {
@@ -32,7 +32,7 @@ output "management_resource_group_id" {
 }
 
 output "management_resource_group_name" {
-    value       = "management_resource_group_name"
+    value       = var.management_resource_group_name
 }
 
 output "workload_resource_group_id" {
@@ -40,7 +40,7 @@ output "workload_resource_group_id" {
 }
 
 output "workload_resource_group_name" {
-    value       = "workload_resource_group_name"
+    value       = var.workload_resource_group_name
 }
 
 output "edge_resource_group_id" {
@@ -48,7 +48,7 @@ output "edge_resource_group_id" {
 }
 
 output "edge_resource_group_name" {
-    value       = "edge_resource_group_name"
+    value       = var.edge_resource_group_name
 }
 
 output "devops_resource_group_id" {
@@ -56,7 +56,7 @@ output "devops_resource_group_id" {
 }
 
 output "devops_resource_group_name" {
-    value       = "devops_resource_group_name"
+    value       = var.devops_resource_group_name
 }
 
 output "activity_tracker_routes" {
