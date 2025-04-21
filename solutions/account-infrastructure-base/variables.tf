@@ -34,7 +34,7 @@ variable "prefix" {
   # https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone/blob/main/patterns/roks/variables.tf#L11
   validation {
     condition     = (var.prefix == null || var.prefix == "") ? true : length(var.prefix) <= 13
-    error_message = "prefix` length must be 13 characters or less or null or an empty string (\"\")."
+    error_message = "`prefix` length must be 13 characters or less or null or an empty string (\"\")."
   }
 }
 
